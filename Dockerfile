@@ -6,3 +6,4 @@ RUN yum install openssh-server -y
 
 EXPOSE 22
 
+CMD "/usr/bin/sshd -D"
